@@ -1,6 +1,3 @@
-/* body{
-	background-color: black;
-} */
 *{
 	margin: 0;
 	padding: 0;
@@ -10,8 +7,6 @@
 /* header */
 nav{
 	margin: 0 auto;
-	/* left: 65px;
-	top: 67px; */
 	Width: 1300px;
 	Height: 102px;
 	border-radius: 20px;
@@ -23,7 +18,6 @@ nav{
 	font-family: 'Poppins', sans-serif;
 	font-style: normal;
 	font-weight: 600;
-	/* font-size: 20px; */
 }
 
 .img-h1{
@@ -58,10 +52,6 @@ nav li a:hover{
 	text-decoration: underline;
 }
 
-/* nav:last-child{
-	background-color: #287573;
-	color: white;
-} */
 
 nav .download{
 	background-color: #287573;
@@ -115,17 +105,6 @@ nav .download a{
 	
 }
 
-/* .para-bttn .s-b{
-	padding: 1vh 1vw;
-	color: #319997;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 20px;
-	border-radius: 10px;
-	cursor: pointer;
-	background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 100%);
-} */
 
 .para-bttn  .bttn span{
 	background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 100%);
@@ -136,10 +115,6 @@ nav .download a{
 
 .para-bttn  .bttn span .s-b{
 	border-style: none;
-	/* padding-top: 1.4vh;
-	padding-bottom: 1.9vh;
-	padding-left: 2vw;
-	padding-right: 2vw; */
 	padding-top: 0.5vh;
 	padding-bottom: 1vh;
 	padding-left: 1.7vw;
@@ -158,7 +133,6 @@ nav .download a{
 	height: 343px;
 	left: 990px;
 	top: 192px;
-	/* background: rgba(38, 42, 47, 0.2); */
 	border-radius: 50%;
 }
 
@@ -168,7 +142,6 @@ nav .download a{
 	height: 343px;
 	left: 804px;
 	top: 473px;
-	/* background: rgba(239, 215, 119, 0.3); */
 	border-radius: 50%;
 }
 
@@ -178,7 +151,6 @@ nav .download a{
 	height: 343px;
 	left: 743px;
 	top: 233px;
-	/* background: rgba(209, 238, 236, 0.3); */
 	border-radius: 50%;
 }
 
@@ -188,7 +160,6 @@ nav .download a{
 	height: 343px;
 	left: 1033px;
 	top: 425px;
-	/* background: rgba(226, 155, 154, 0.3); */
 	border-radius: 50%;
 }
 
@@ -199,7 +170,6 @@ nav .download a{
 	left: 802px;
 	top: 243px;
 	border-radius: 50%;
-	/* background: url(.jpg), #D9D9D9; */
 }
 
 .pic .pic6{
@@ -209,7 +179,6 @@ nav .download a{
 	left: -187px;
 	top: 574px;
 	border-radius: 50%;
-	/* background: rgba(239, 215, 119, 0.2); */
 }
 
 .pic .pic7{
@@ -219,7 +188,6 @@ nav .download a{
 	left: 1221px;
 	top: 758px;
 	border-radius: 50%;
-	/* background: #F0D7D2; */
 }
 
 main .ques{
@@ -230,5 +198,66 @@ main .ques{
 	font-size: 48px;
 	text-align: center;
 	color: #319997;
+	margin-bottom: 20vh;
+}
+
+main .m-s-a{
+	display: flex;
+	justify-content: center;
+	gap: 1vh 3.5vw;
+}
+
+
+main .m-s-a .mother{
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+}
+
+main .m-s-a .para{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(245, 229, 168, 0.25);
+	border-radius: 10px;
+	padding-top: 2vh;
+	padding-bottom: 9vh;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+main .m-s-a .para p:first-child{
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	margin-bottom: 4.5vh;
+}
+
+main .m-s-a .para p:last-child{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+
+main .m-s-a .stethoscope{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+main .m-s-a .article{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+.mother-icon, .stethoscope-icon, .article-icon{
+	margin-bottom: 15vh;
 }
 
