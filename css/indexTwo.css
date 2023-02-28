@@ -1,0 +1,402 @@
+*{
+	padding: 0;
+	margin: 0;
+	/* background-color: black; */
+}
+
+img, button{
+	cursor: pointer;
+}
+
+.icon-con{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 4vh;
+}
+
+.icon-left{
+	max-width: 35vw;
+	height: auto;
+	background: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	margin-left: 5vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex: 1;
+	padding: 1vh 0;
+}
+
+.icon-left .icon1{
+	max-width: 6vw;
+	height: auto;
+	border-radius: 50%;
+}
+
+
+
+.icon-left div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* .icon-left div img{
+	max-width: 2vw;
+	height: auto;
+} */
+
+.icon-left div p{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 2vh;
+	color: rgba(184, 176, 176, 0.6);
+}
+
+.icon-right{
+	background: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	width: 18.5vw;
+	height: auto;
+	border-radius: 50px;
+	margin-right: 5vw;
+	position: relative;
+}
+
+.icon-right div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1vh 0vw;
+}
+
+.icon-right div img{
+	max-width: 6vw;
+	height: auto;
+	border-radius:  50%;
+}
+
+
+
+.icon-right div p{
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+}
+
+
+
+.icon-right .not{
+	position: absolute;
+	top: 1vh;
+	left: 17vw;
+	width: 2vw;
+}
+
+
+			/* main */
+
+
+main .img-para{
+	margin-top: 4vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+main .img-para img{
+	max-width: 50vw;
+	height: auto;
+}
+
+main .img-para div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main .img-para div p:first-child{
+	font-family: PT Serif;
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 3vh;
+	text-align: center;
+}
+
+main .img-para div p:nth-child(2){
+	font-family: Poppins;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: center;
+	margin-bottom: 3vh;
+}
+
+main .img-para div button{
+	padding: 1vh 1.5vw;
+	background: #319997;
+	border-radius: 10px;
+	font-family: Poppins;
+	border: none;
+	color: white;
+}
+
+
+main .progress .greetings{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 22px;
+	letter-spacing: -0.408px;
+	margin: 5vh 0;
+}
+
+main .progress .name{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 22px;
+	letter-spacing: -0.408px;
+	color: #000000;
+}
+
+main .progress div{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+main .progress div img{
+	/* width: 722px; */
+	height: auto;
+	max-width: 50vw;
+}
+
+
+
+main .progress div div{
+	display: flex;
+}
+
+
+main .progress div div:first-child{
+	margin-right: 3vw;
+	border-right: 1px solid red;
+	padding-right: 1vw;
+}
+
+main .progress div div div{
+	display: flex;
+}
+
+
+
+
+main .progress div div div img{
+	max-width: 6vw;
+	/* width: 80px; */
+	height: auto;
+	margin-right: 1vw;
+}
+
+
+main .progress div div div div{
+	display: flex;
+	flex-direction: column;
+	/* text-align: end; */
+}
+
+
+main .progress div div div div:first-child{
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: -0.40799999237060547px;
+	text-align: center;
+}
+
+
+main .progress div div div div:nth-child(2){
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: -0.408px;
+	color: #000000;
+}
+
+
+main .progress div div div div p{
+	margin-bottom: 1vh;
+}
+
+main .progress div div div div button{	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: -0.408px;
+	color: rgba(45, 40, 40, 0.83);
+	background-image: linear-gradient(to right, white , rgb(49, 153, 151));
+	border-radius: 4px;
+	border: none;
+}
+
+main .images{
+	margin-top: 3vh;
+}
+
+
+main .images div{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+main .images div img{
+	max-width: 20vw;
+	/* width: 330px; */
+	height: auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 964px) {
+	.icon-right div p{
+		font-size: 12px;
+	}
+
+
+	.icon-left div p{
+		font-size: 12px;
+	}
+}
+
+
+@media only screen and (max-width: 814px) {
+
+	.icon-left div img{
+		max-width: 2vw;
+		height: auto;
+	}
+
+	.icon-right div p{
+		font-size: 8px;
+	}
+
+
+	.icon-left div p{
+		font-size: 9px;
+	}
+
+	main .img-para div p:first-child{
+		font-size: 32px;
+	}
+	
+	main .img-para div p:nth-child(2){
+		font-size: 18px;
+	}
+
+	main .progress .greetings{
+		font-size: 26px;
+	}
+	
+	main .progress .name{
+		font-size: 30px;
+	}
+}
+
+
+@media only screen and (max-width: 630px) {
+	.icon-con{
+		display: block;
+	}
+
+	.icon-right{
+		width: 29.5vw;
+		height: auto;
+		margin-top: 2vh;
+		border-radius: 50px;
+		margin-right: auto;
+		margin-left: auto;
+		position: relative;
+	}
+
+	.icon-left{
+		max-width: 56vw;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.icon-right .not{
+		position: absolute;
+		top: 1vh;
+		left: 28vw;
+		width: 2vw;
+	}
+
+	main .progress {
+		margin-top: 8vh;
+	}
+
+	main .progress .greetings{
+		display: flex; 
+       justify-content: center;
+	}
+	
+	main .progress .name{
+		display: flex; 
+       justify-content: center;
+		/* text-align: center; */
+		margin-bottom: 8vh;
+	}
+
+	main .progress div{
+		display: block;
+	}
+
+	main .progress div div{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 4vh;
+	}
+
+	main .progress div div:first-child{
+		border: none;
+	}
+
+	/* main .progress div div div img{
+		margin-right: 2px;
+	} */
+
+	main .progress div img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	main .images div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	main .images div img{
+		margin-top: 2vh;
+	}
+}
+
