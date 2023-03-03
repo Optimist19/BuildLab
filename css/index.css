@@ -8,7 +8,8 @@
 nav{
 	margin: 0 auto;
 	max-width: 90vw;
-	height: 16vh;
+	height: auto;
+	padding: 2vh 0;
 	border-radius: 20px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	background: #FFFFFF;
@@ -28,7 +29,7 @@ nav{
 
 .img-h1 img{
 	max-width: 7vw;
-	height: 14vh;
+	height: auto;
 	border-radius: 50%;
 }
 
@@ -37,11 +38,16 @@ nav{
 	color: #287573;
 }
 
+nav .lis{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
-
-nav li{
+nav .lis li{
 	list-style: none;
 	font-size: 20px;
+	margin-left: 1.2vw;
 }
 
 nav li a{
@@ -95,6 +101,9 @@ main .flex{
 .bttn{
 	margin-left: 2vw;
 	margin-top: 11vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 
 .para-bttn  .bttn .f-b{
@@ -108,7 +117,7 @@ main .flex{
 	font-size: 20px;
 	border-radius: 10px;
 	cursor: pointer;
-	margin-right: 5vw;
+	/* margin-right: 5vw; */
 }
 
 
@@ -134,13 +143,13 @@ main .flex .pic{
 
 main .flex .pic .pic5{
 	max-width: 60vw;
-	max-height: 80vh;
+	height: auto;
 }
 
 main .pic6{
 	position: absolute;
 	max-width: 30vw;
-	height: 42.5vh;
+	height: auto;
 	left: 0;
 	top: 70vh;
 	z-index: -1;
@@ -149,14 +158,12 @@ main .pic6{
 main .pic7{
 	position: absolute;
 	max-width: 20vw;
-	height: 40vh;
+	height: auto;
 	right: 0;
-	top: 90vh;
+	top: 110vh;
+	z-index: -1;
+
 }
-
-
-
-
 
 
 main .ques{
@@ -228,6 +235,8 @@ main .m-s-a .article{
 
 
 .mother-icon, .stethoscope-icon, .article-icon{
+	max-width: 9vw;
+	height: auto;
 	margin-bottom: 5vh;
 }
 
@@ -238,9 +247,9 @@ main .fre-para{
 main .fre-para  img{
 	position: absolute;
 	max-width: 30vw;
-	height: 467px;
+	height: auto;
 	left: 60px;
-	top: 200vh;
+	top: 210vh;
 	z-index: -100;
 }
 
@@ -271,8 +280,7 @@ main .fre-para #para{
 
 main .fre-para .pa{
 	display: grid;
-	grid-template-columns: 1fr 1.5fr ;
-	
+	grid-template-columns: 1fr 1.5fr ;	
 }
 
 main .fre-para .pa div p{
@@ -287,6 +295,8 @@ main .fre-para .pa div p{
 	font-weight: 400;
 	font-size: 20px;
 }
+
+			/* footer */
 
 footer{
 	margin-top: 3vh;
@@ -311,120 +321,79 @@ footer #f-buildlab{
 }
 
 
-@media only screen and (max-width: 872px) {
-	
-	nav .img-h1 img{
-		max-width: 7vw;
-		height: 9vh;
-		border-radius: 50%;
+
+@media only screen and (max-width: 899px) {
+	nav{
+		display: block;
 	}
 
-	nav .img-h1 h1{
-		font-size: 24px;
-		color: #287573;
+	nav .img-h1{
+		justify-content: center;
 	}
 
-	nav li{
-		font-size: 18px;
+	nav .lis{
+		justify-content: center;
 	}
 
-	nav .download{
-		background-color: #287573;
-		padding: 0.5vh 0.5vw;
-		border-radius: 10px;
-		margin-right: 0.7vw;
+	main .bttn{
+		display: block;
+	}
+
+
+	main .para-bttn  .bttn .f-b{
+		margin-bottom: 1.2vh;
+	}
+
+	main .fre-para  img{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 683px){
+	main .flex{
+		background-image: url(../images/Mom\ and\ child\ png.jpg);
+		background-color: rgba(0, 0, 0, 0.4);
+		background-blend-mode:multiply;
 	}
 
 	.para-bttn .first-para{
-		font-size: 38px;
+		color: white
 	}
-	
+
 	.para-bttn .snd-para{
-		font-size: 13px;
+		color: white;
+
 	}
 
-
-			/* main */
-
-	.para-bttn  .bttn .f-b{
-		display: block;
-		margin-bottom: 2vh;
-	}
-
-	main .pic6{
-		max-width: 15vw;
-		height: 35vh;
-		top: 60vh;
-	}
-
-	main .pic7{
-		display: none
+	main .flex .pic .pic5{
+		display: none;
 	}
 
 	main .ques{
-		font-size: 32px;
-		margin-top: 8vh;
-		margin-bottom: 15vh;
-		
+		margin-top: 10vh;
 	}
 
-	main .m-s-a .para p:first-child{
-		font-size: 20px;
-	}
-	
-	main .m-s-a .para p:last-child{
-		font-size: 16px;
+	main .m-s-a{
+		display: block;
 	}
 
-	main .fre-para  img{
-		max-width: 30vw;
-		height: 467px;
-		left: 60px;
-		top: 190vh;
-		z-index: -100;
+	main .m-s-a .stethoscope{
+		margin-top: 4vh;
 	}
 
-	main .fre-para  .quest-para h4{
-		font-size: 32px;
+
+	main .m-s-a .article{
+		margin-top: 4vh;
 	}
 
-	main .fre-para #para{
-		font-size: 16px;
+	main .fre-para .pa{
+		display: block;
 	}
-
-	main .fre-para .pa div p{
-		font-size: 16px;
-	}
-	
-	footer p{
-		font-size: 16px;
-	}
-	
-	footer #f-buildlab{
-		font-size: 26px;
-	}
-
-}
-
-@media only screen and (max-width: 880px) {
-	.para-bttn {
-		margin-top: 5vh;
-	}
-
-	main .pic7{
-		top: 70vh;
-	}
-
-	main .fre-para  img{
-		top: 160vh;
-	}
-
 }
 
 
-@media only screen and (max-width: 700px) {
-	main .fre-para  img{
-		top: 200vh;
+@media only screen and (max-width: 561px) {
+		nav .lis li{
+		font-size: 10px;
 	}
-
 }
